@@ -25,4 +25,4 @@ setInterval(() => {
     // ロードアベレージの値を格納した配列を取得して文字列に変換し、段落の内部のテキストとして設定
     loadavg.text(data.loadavg.toString());
   });
-}, 10);
+}, 1000);
